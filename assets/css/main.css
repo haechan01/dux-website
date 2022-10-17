@@ -622,9 +622,6 @@ h6 {
   margin-left: 120px;
 }
 
-.our {
-
-}
 
 .head p {
   font-weight: 100;
@@ -750,18 +747,96 @@ h6 {
   }
 }
 
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
 .gallery {
   margin-top: 40px;
 }
-.gallery .our h2 {
+.gallery h2 {
   position: relative;
   overflow: hidden;
-  font-size:45px;
+  font-size:4vw;
   margin-left: 40%;
   margin-right: 40%;
+  margin-top: 200px;
   margin-bottom: 50px;
 }
 .gallery .gallery-item {
@@ -1269,17 +1344,26 @@ h6 {
   margin-bottom: 70px;
   font-size: 50px;
 }
+
+.frame { 
+  zoom: 0.75; 
+}
+
+.pdf {
+  margin-top:4%;
+  margin-bottom: 4%;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 100vh;
   background: #000;
   background-size: cover;
   position: relative;
-  padding: 0px 0px 0px 0px;
+  padding: 60px 0px 0px 0px;
 }
+
 
 .text-block {
   position: absolute;
@@ -1296,7 +1380,7 @@ h6 {
 
 .hero h2 {
   margin: 0 0 5px 0;
-  font-size: 38px;
+  font-size: 3vw;
   font-weight: 00;
   color: #fff;
   font-family: var(--font-secondary);
@@ -1322,14 +1406,18 @@ h6 {
 
 .hero p {
   color: black;
-  margin-top: 30px;
-  margin-bottom: 70px;
-  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2vw;
+  text-size-adjust: auto;
 }
+
+
+
 .hero p span {
   color: black;
   margin-bottom: 30px;
-  font-size: 25px;
+  font-size: 1.4vw;
   font-style: italic;
 }
 
