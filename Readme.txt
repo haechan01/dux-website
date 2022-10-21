@@ -14,6 +14,7 @@ How to add a new volume to the website:
 3. Create a new file in the main folder and name it 'VOL#.html' where # is the number of the volume. 
 4. Copy paste all the contents from 'VOL3.html' file to the newly created file. 
 5. Upload the PDF files on OneDrive and get the embed link. In the copied file, search 'HERE1' and copy paste the embed link from one drive. This will upload the pdf in the page.
+![](https://github.com/haechan01/dux-website/blob/main/assets/onedrive.gif)
 6. Upload the pdf in google drive . Give access to 'anyone with the link' and copy the link.
 7. Search 'HERE2' and paste the link to the google drive. This is for the mobile view. 
 8. Search 'HERE3' and copy paste from a line of code above and change the volume name. This is for the dropdown navigation bar. 
