@@ -4,7 +4,7 @@ Resource to learn about Github: https://product.hubspot.com/blog/git-and-github-
 How to clone from a github repository: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 How to download and use visual studio code: https://code.visualstudio.com/docs/introvideos/basics
 
-# General description of the website structure:
+General description of the website structure:
 The Home page of the website is in 'index.html' file. All the images and PDFs are in the assets folder. For each volumes, there are separate html pages. For example, 'VOL3.html' is the page for volume 3, 
 and it links to the PDF file of volume 3. 
 
