@@ -14,7 +14,6 @@ How to add a new volume to the website:
 3. Create a new file in the main folder and name it 'VOL#.html' where # is the number of the volume. 
 4. Copy paste all the contents from 'VOL3.html' file to the newly created file. 
 5. Upload the PDF files on OneDrive and get the embed link. In the copied file, search 'HERE1' and copy paste the embed link from one drive. This will upload the pdf in the page.
-![Screen Recording 2022-10-21 at 16 42 55](https://user-images.githubusercontent.com/80665173/197142778-d8f0cf76-60d1-4010-bcf4-b11206edc11e.gif)
 
 6. Upload the pdf in google drive . Give access to 'anyone with the link' and copy the link.
 7. Search 'HERE2' and paste the link to the google drive. This is for the mobile view. 
